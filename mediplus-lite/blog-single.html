@@ -187,10 +187,17 @@ Physiotherapy is not just for those recovering from injuries; it is a holistic a
 										<blockquote class="overlay">
 											<p>"Great progress today! The patient demonstrated improved range of motion in their shoulder exercises, and their strength has noticeably increased since our last session. We discussed the importance of continuing with the prescribed home exercises and incorporating them into their daily routine. Additionally, we addressed any concerns or questions the patient had, ensuring they feel confident and motivated in their rehabilitation journey. Looking forward to building on this positive momentum in the next session!"</p>					
 										</blockquote>
-										<div class="chat-container">
-    <div id="chat-box"></div>
-    <input type="text" id="user-input" placeholder="Type your message...">
-    <button onclick="sendMessage()">Send</button>
+										<div class="chat-container" style=" width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;">
+    <div id="chat-box" style="height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;"></div>
+    <input type="text" id="user-input" placeholder="Type your message..." style="width: 70%;
+    padding: 5px;
+    margin-right: 10px;">
+    <button onclick="sendMessage()" style=" padding: 5px 10px;">Send</button>
 </div>
 
 <script >
