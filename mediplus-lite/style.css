@@ -760,7 +760,7 @@ body{
 }
 .schedule .single-schedule .time-sidual li {
 	display: block;
-	color: #fff;
+	color: red;
 	width: 100%;
 	margin-bottom:3px;
 }
